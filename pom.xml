@@ -25,7 +25,7 @@
         <spring.amqp.version>2.1.5.RELEASE</spring.amqp.version>
         <logback.version>1.2.3</logback.version>
 
-        <junit.jupiter.version>5.4.2</junit.jupiter.version>
+        <junit.jupiter.version>5.7.0</junit.jupiter.version>
         <pitest-junit5.version>0.8</pitest-junit5.version>
 
         <maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
