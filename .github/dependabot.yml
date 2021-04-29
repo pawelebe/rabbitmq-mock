@@ -1,0 +1,32 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: io.micrometer:micrometer-core
+    versions:
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+  - dependency-name: org.pitest:pitest-maven
+    versions:
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+  - dependency-name: org.mockito:mockito-core
+    versions:
+    - 3.7.7
+    - 3.8.0
+  - dependency-name: org.springframework.amqp:spring-rabbit
+    versions:
+    - 2.3.4
+    - 2.3.5
+  - dependency-name: org.junit.jupiter:junit-jupiter
+    versions:
+    - 5.7.0
+  - dependency-name: org.apache.maven.plugins:maven-invoker-plugin
+    versions:
+    - 3.2.1
